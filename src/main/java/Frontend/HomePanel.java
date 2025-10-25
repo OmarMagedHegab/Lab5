@@ -167,9 +167,9 @@ public class HomePanel extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-            Search s=new Search();
-            s.setTitle("Search Student");
-            s.setVisible(true);
+            Update u=new Update();
+            u.setTitle("Search Student");
+            u.setVisible(true);
             this.setVisible(false);// TODO add your handling code here:
     }//GEN-LAST:event_jButton5ActionPerformed
 

@@ -1,1 +1,1 @@
-1,omar,21,Male,Compu,4.0
+1,Omar,20,Male,Electro,3.7
