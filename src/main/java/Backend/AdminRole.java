@@ -100,6 +100,10 @@ public class AdminRole {
     }
 }
 
+    public ArrayList<Student> getStudents() {
+        return students;
+    }
+
     public boolean removeStudent(int key) {
         Iterator<Student> iter = students.iterator();
         while (iter.hasNext()) {

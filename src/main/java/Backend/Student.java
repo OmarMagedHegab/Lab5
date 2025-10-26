@@ -9,7 +9,7 @@ package Backend;
  * @author engom
  */
 public class Student {
-    private int studentID;
+    private final int studentID;
     private String studentName;
     private int age;
     private String gender;

@@ -1,9 +1,11 @@
-Frontend\HomePanel$7.class
 Frontend\LogIn$2.class
 Frontend\AddStudent$3.class
+Frontend\Delete$5.class
 Frontend\Update$4.class
+Frontend\Delete$3.class
 Frontend\HomePanel$2.class
 Frontend\AddStudent$1.class
+Frontend\AddStudent$7.class
 Frontend\Update$1.class
 Frontend\HomePanel$3.class
 Frontend\ViewAll.class
@@ -12,7 +14,9 @@ Frontend\Update$9.class
 Frontend\HomePanel$5.class
 Frontend\Delete.class
 Backend\Student.class
+Frontend\AddStudent$9.class
 Frontend\AddStudent$4.class
+Frontend\Delete$4.class
 Frontend\AddStudent.class
 Frontend\LogIn.class
 Frontend\HomePanel$6.class
@@ -23,11 +27,14 @@ Backend\Main.class
 Frontend\HomePanel.class
 Frontend\Update$3.class
 Frontend\AddStudent$6.class
+Frontend\ViewAll$2.class
 Frontend\AddStudent$2.class
+Frontend\Delete$2.class
 Frontend\Update$7.class
 Frontend\Delete$1.class
 Frontend\HomePanel$4.class
 Frontend\ViewAll$1.class
+Frontend\AddStudent$8.class
 Frontend\Update$2.class
 Frontend\Update$8.class
 Backend\AdminRole.class
