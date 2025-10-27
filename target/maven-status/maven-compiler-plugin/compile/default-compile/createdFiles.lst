@@ -11,6 +11,7 @@ Frontend\HomePanel$3.class
 Frontend\ViewAll.class
 Frontend\Update$6.class
 Frontend\Update$9.class
+Frontend\Update$10.class
 Frontend\HomePanel$5.class
 Frontend\Delete.class
 Backend\Student.class
