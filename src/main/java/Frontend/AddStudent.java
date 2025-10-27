@@ -230,7 +230,7 @@ public class AddStudent extends javax.swing.JFrame {
             Double.parseDouble(txtGPA.getText())
         );
 
-        r.getStudents().add(s);
+        r.returnAllStudents().add(s);
         r.saveToFile();
 
         JOptionPane.showMessageDialog(this, 
