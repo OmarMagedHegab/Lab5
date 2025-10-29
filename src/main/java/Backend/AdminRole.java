@@ -18,6 +18,8 @@ public class AdminRole {
     public AdminRole(String filename) {
         this.filename = filename;
     }
+    
+    //takes line and add student to the arraylist
     public Student createStudentFromString(String line){
        String[] parts=line.split(",");
        int ID=Integer.parseInt(parts[0]);
@@ -25,6 +27,8 @@ public class AdminRole {
        double gpa=Double.parseDouble(parts[5]);
       return new Student(ID,parts[1],age,parts[3],parts[4],gpa);
     }
+    
+    //reads line from the file
     public void readFromFile() throws FileNotFoundException {
         students.clear();
         Scanner input = new Scanner(new File(filename));
@@ -37,6 +41,8 @@ public class AdminRole {
 
         input.close();
     }
+    
+    //save into file with thw correct represntation
     public void saveToFile() throws FileNotFoundException {
         PrintWriter writer = new PrintWriter(filename);
         for (Student st : students) {
@@ -44,9 +50,11 @@ public class AdminRole {
         }
         writer.close();
     }
+    
     public ArrayList<Student> returnAllStudents(){
         return students;
     }
+    
     public Student[] viewStudents() throws FileNotFoundException{
         readFromFile();
         ArrayList<Student> students = returnAllStudents();
@@ -56,6 +64,7 @@ public class AdminRole {
         }
        return sts; 
     }
+    
     public void addStudent(int ID, String name, int age, String gender, String department, double GPA) throws FileNotFoundException {
     readFromFile();
     if (contains(ID)) {
@@ -100,7 +109,6 @@ public class AdminRole {
     }
 }
 
-  
 
     public boolean removeStudent(int key) {
         Iterator<Student> iter = students.iterator();
@@ -113,6 +121,7 @@ public class AdminRole {
         }
         return false;
     }
+    
     public void updateStudent(int ID, String newName, int newAge, String newGender, String newDepartment, double newGPA) throws FileNotFoundException {
     readFromFile();
     for (Student s : students) {
